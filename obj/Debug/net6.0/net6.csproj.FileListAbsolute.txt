@@ -1,0 +1,15 @@
+/Users/adelacuellar/Documents/freelance/examen_freelance/net6/bin/Debug/net6.0/net6
+/Users/adelacuellar/Documents/freelance/examen_freelance/net6/bin/Debug/net6.0/net6.deps.json
+/Users/adelacuellar/Documents/freelance/examen_freelance/net6/bin/Debug/net6.0/net6.runtimeconfig.json
+/Users/adelacuellar/Documents/freelance/examen_freelance/net6/bin/Debug/net6.0/net6.dll
+/Users/adelacuellar/Documents/freelance/examen_freelance/net6/bin/Debug/net6.0/net6.pdb
+/Users/adelacuellar/Documents/freelance/examen_freelance/net6/obj/Debug/net6.0/net6.csproj.AssemblyReference.cache
+/Users/adelacuellar/Documents/freelance/examen_freelance/net6/obj/Debug/net6.0/net6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adelacuellar/Documents/freelance/examen_freelance/net6/obj/Debug/net6.0/net6.AssemblyInfoInputs.cache
+/Users/adelacuellar/Documents/freelance/examen_freelance/net6/obj/Debug/net6.0/net6.AssemblyInfo.cs
+/Users/adelacuellar/Documents/freelance/examen_freelance/net6/obj/Debug/net6.0/net6.csproj.CoreCompileInputs.cache
+/Users/adelacuellar/Documents/freelance/examen_freelance/net6/obj/Debug/net6.0/net6.dll
+/Users/adelacuellar/Documents/freelance/examen_freelance/net6/obj/Debug/net6.0/refint/net6.dll
+/Users/adelacuellar/Documents/freelance/examen_freelance/net6/obj/Debug/net6.0/net6.pdb
+/Users/adelacuellar/Documents/freelance/examen_freelance/net6/obj/Debug/net6.0/net6.genruntimeconfig.cache
+/Users/adelacuellar/Documents/freelance/examen_freelance/net6/obj/Debug/net6.0/ref/net6.dll
