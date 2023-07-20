@@ -7,19 +7,46 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World2!");
-
             using (var context = new BlogDataContext())
             {
-                var add = new Items { name = "Metropolis", favorite = false };
-                context.List.Add(add);
-                context.SaveChanges();
-            }
+                Console.WriteLine("Escribe el id que quieres agregar o eliminar de favoritos");
+                var list = context.List;
+                foreach (var item in list)
+                {
+                    var itemtoshow = item.id + " " + item.name;
+                    if (item.favorite)
+                    {
+                        itemtoshow = itemtoshow + " *";
+                    }
+                    Console.WriteLine(itemtoshow);
+                }
 
+                int idwrited = Convert.ToInt32(Console.ReadLine());
+
+                var itemselected = context.List.Find(idwrited);
+                if (itemselected != null)
+                {
+                    if (itemselected.favorite)
+                    {
+                        itemselected.favorite = false;
+                    }
+                    else
+                    {
+                        itemselected.favorite = true;
+                    }
+                    context.SaveChanges();
+                }
+            }
         }
 
         public class BlogDataContext : DbContext
         {
+            //162.241.203.237
+            //adeevco2_databese_sl
+            //adeevco2_user_sl
+            //$cWmt_yf+olm
+            //This.ispw1
+            //static readonly string connectionString = "Server=162.241.203.241; Port=3306; Uid=adeevco2_user_sl; Pwd=This.ispw1; Database=adeevco2_databese_sl";
             static readonly string connectionString = "Server=localhost; Port=8889; Uid=root; Pwd=root; Database=show_list";
 
             public DbSet<Items> List { get; set; }
