@@ -9,7 +9,41 @@ namespace MyApp // Note: actual namespace depends on the project name.
         {
             using (var context = new BlogDataContext())
             {
-                Console.WriteLine("Escribe el id que quieres agregar o eliminar de favoritos");
+                bool salir = false;
+
+                Console.WriteLine("id_movie - will update the favorites status");
+                Console.WriteLine("all - Get all list");
+                Console.WriteLine("fav - Get only the favorites");
+                Console.WriteLine("exit - Close the app");
+                Program p = new Program();
+                p.showAllList();
+                while (!salir)
+                {
+                    var writed = Console.ReadLine();
+                    switch (writed)
+                    {
+                        case "all":
+                            p.showAllList();
+                            break;
+                        case "fav":
+                            p.getFavorites();
+                            break;
+                        case "exit":
+                            salir = true;
+                            break;
+                        default:
+                            int id = Convert.ToInt32(writed);
+                            p.addToFavorites(id);
+                            break;
+                    }
+                }
+            }
+        }
+
+        public void showAllList()
+        {
+            using (var context = new BlogDataContext())
+            {
                 var list = context.List;
                 foreach (var item in list)
                 {
@@ -20,10 +54,14 @@ namespace MyApp // Note: actual namespace depends on the project name.
                     }
                     Console.WriteLine(itemtoshow);
                 }
+            }
+        }
 
-                int idwrited = Convert.ToInt32(Console.ReadLine());
-
-                var itemselected = context.List.Find(idwrited);
+        public void addToFavorites(int id)
+        {
+            using (var context = new BlogDataContext())
+            {
+                var itemselected = context.List.Find(id);
                 if (itemselected != null)
                 {
                     if (itemselected.favorite)
@@ -35,6 +73,24 @@ namespace MyApp // Note: actual namespace depends on the project name.
                         itemselected.favorite = true;
                     }
                     context.SaveChanges();
+                }
+            }
+        }
+
+        public void getFavorites()
+        {
+            using (var context = new BlogDataContext())
+            {
+                var favorites = context.List.Where(d => d.favorite == true);
+
+                foreach (var item in favorites)
+                {
+                    var itemtoshow = item.id + " " + item.name;
+                    if (item.favorite)
+                    {
+                        itemtoshow = itemtoshow + " *";
+                    }
+                    Console.WriteLine(itemtoshow);
                 }
             }
         }
