@@ -12,8 +12,8 @@ namespace MyApp // Note: actual namespace depends on the project name.
                 bool salir = false;
 
                 Console.WriteLine("id_movie - will update the favorites status");
-                Console.WriteLine("all - Get all list");
-                Console.WriteLine("fav - Get only the favorites");
+                Console.WriteLine("list - Get all list");
+                Console.WriteLine("favorites - Get only the favorites");
                 Console.WriteLine("exit - Close the app");
                 Program p = new Program();
                 p.showAllList();
@@ -22,10 +22,10 @@ namespace MyApp // Note: actual namespace depends on the project name.
                     var writed = Console.ReadLine();
                     switch (writed)
                     {
-                        case "all":
+                        case "list":
                             p.showAllList();
                             break;
-                        case "fav":
+                        case "favorites":
                             p.getFavorites();
                             break;
                         case "exit":
