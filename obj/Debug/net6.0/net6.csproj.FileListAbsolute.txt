@@ -28,3 +28,4 @@
 /Users/adelacuellar/Documents/freelance/examen_freelance/net6/bin/Debug/net6.0/MySqlConnector.dll
 /Users/adelacuellar/Documents/freelance/examen_freelance/net6/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll
 /Users/adelacuellar/Documents/freelance/examen_freelance/net6/obj/Debug/net6.0/net6.csproj.CopyComplete
+/Users/adelacuellar/Documents/freelance/examen_freelance/net6/bin/Debug/net6.0/nunit.framework.dll
