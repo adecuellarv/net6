@@ -16,6 +16,4 @@ To test this repository run the following from the command-line:
 >import in your database the file [database.sql]
 >configure database connection in Program.cs in the line 106
 >dotnet run
->cd Program.Test
->dotnet test
 ```

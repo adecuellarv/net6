@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "PScK3Abftgc8nZ1BqqVrOaWUr+48YCegN/cgqDumunWrbBLEl9VEdkNG+r9sBz0MM0RMjlOhvuXZnpnAc6MljA==",
+  "dgSpecHash": "ysT2wNjBEEQjnnER+AT4ayFQO1MJt/gITZVsILptzKoDz1F3fIBAdS1/lhlxYxsu3m2+cfV7LBEwtwnLCqrxUg==",
   "success": true,
   "projectFilePath": "/Users/adelacuellar/Documents/freelance/examen_freelance/net6/net6.csproj",
   "expectedPackageFiles": [
-    "/Users/adelacuellar/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/adelacuellar/.nuget/packages/microsoft.entityframeworkcore/7.0.2/microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
     "/Users/adelacuellar/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.2/microsoft.entityframeworkcore.abstractions.7.0.2.nupkg.sha512",
     "/Users/adelacuellar/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.2/microsoft.entityframeworkcore.analyzers.7.0.2.nupkg.sha512",
@@ -19,12 +18,10 @@
     "/Users/adelacuellar/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/Users/adelacuellar/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "/Users/adelacuellar/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/adelacuellar/.nuget/packages/moq/4.18.4/moq.4.18.4.nupkg.sha512",
     "/Users/adelacuellar/.nuget/packages/mysqlconnector/2.2.5/mysqlconnector.2.2.5.nupkg.sha512",
     "/Users/adelacuellar/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
     "/Users/adelacuellar/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
     "/Users/adelacuellar/.nuget/packages/pomelo.entityframeworkcore.mysql/7.0.0/pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
-    "/Users/adelacuellar/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512",
     "/Users/adelacuellar/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
